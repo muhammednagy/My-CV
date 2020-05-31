@@ -1,0 +1,177 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Nagy} \headerlastnamestyle{Salem} \\
+	\vspace{1mm}
+	{\faEnvelope\ me@muhnagy.com} | {\faMapMarker\ Tallinn, Estonia} | {\faLink\ muhnagy.com} | \href{http://www.github.com/muhammednagy}{\faGithub\ muhammednagy}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.Sc in Software development and entrepreneurship}
+	{Estonian Entrepreneurship University Of Applied Sciences}
+	{Tallinn, Estonia}
+	{Feb 2019 – Present}
+	{}
+\end{cventries}
+
+\vspace{-8mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Employment}
+\begin{cventries}
+	\cventry
+	{Software Developer, Internship}
+	{eSpace}
+	{Alexandria, Egypt}
+	{June 2016 – August 2016}
+	{\begin{cvitems}
+		\item {Worked on building a MOOC web platform that is similar to Coursera that was used to host company tech talks and internal courses Using Ruby on Rails.}
+		\end{cvitems}}
+	\cventry
+	{Linux System Administrator, Internship}
+	{Spirula Systems}
+	{Alexandria, Egypt}
+	{June 2017 – August 2017}
+	{\begin{cvitems}
+		\item {Learned Ansible, Bash and other DevOps tools built over the period of the internship.}
+		\end{cvitems}}
+	\cventry
+	{CTO/Co-founder}
+	{Infraex Development}
+	{TN, USA (Remote)}
+	{October 2017 – July 2018}
+	{\begin{cvitems}
+		\item {Re-engineered market exchange software to suit each customer’s needs.}
+		\item {Worked with partners in various global jurisdictions to ensure that they met local regulations and implemented legally required identity verification.}
+		\item {Helped clients launch crypto exchanges in almost all continents and provided support.}
+		\end{cvitems}}
+	\cventry
+	{Software Developer}
+	{Bixer}
+	{Singapore (Remote)}
+	{August 2018 – April 2019}
+	{\begin{cvitems}
+		\item {Worked on the backend of the application as well as managing the infrastructure.}
+		\item {Was maintaing and managing 2 crypto exchanges operating the Southeast Asia region.}
+		\end{cvitems}}
+	\cventry
+	{Growth Specialist}
+	{Paxful}
+	{Tallinn, Estonia}
+	{Aprill 2019 – November 2019}
+	{\begin{cvitems}
+		\item {Worked on increasing the user base in the MENA region and restructuring the company and the way it works internally.}
+		\end{cvitems}}
+	\cventry
+	{Software Developer}
+	{Mindly}
+	{Tallinn, Estonia}
+	{December 2019 – May 2020}
+	{\begin{cvitems}
+		\item {Worked on building a modern front end using Vue.js and added features for the backend in Ruby on Rails for a famous debt collecting company in the Baltics and Finland.}
+		\item {Worked on optimizing a search engine API for the Politically exposed persons (PEPs) and terrorists fetched from different Legal institutions in the US, UK, AU, and other countries for a famous identity verification company that used Ruby on Rails and PostgreSQL. Managed to make the search work faster by over 90 \%.}
+		\end{cvitems}}
+	\cventry
+	{Software Developer}
+	{Shopz.com}
+	{Tallinn, Estonia}
+	{May 2020 – Present}
+	{\begin{cvitems}
+		\item {Working on building the backend for web shops solutioins in Go.}
+		\item {Building dynamioc template switching in runtime and dynamic template elements rendering.}
+		\end{cvitems}}
+\end{cventries}
+
+\vspace{-7mm}
+
+\cvsection{Open-source Projects}
+\begin{cventries}
+	\cventry
+	{Open source crypto exchange platform.}
+	{Peatio}
+	{Ruby, Rails, Bitcoin, Ethereum}
+	{http://github.com/muhammednagy/peatio}
+	{}
+	
+	\vspace{-6mm}
+	\cventry
+	{Gearbox is a web framework written in Go with a focus on high performance and memory optimization.}
+	{Gearbox}
+	{Go}
+	{https://github.com/gogearbox/gearbox}
+	{}
+	
+	\vspace{-6mm}
+\end{cventries}
+
+\cvsection{Awards}
+\begin{cvhonors}
+	\cvhonor
+	{Bounty}
+	{KiwEth, Quorum blockhain deployment tool.}
+	{JPMorgan ETHParis}
+	{March 2019}
+	\cvhonor
+	{Bounty}
+	{An Ether payment button for websites and apps with an incentive system behind it.}
+	{Skale ETHNewYork}
+	{May 2019}
+	\cvhonor
+	{Bounty}
+	{Squirrel Goals is an Ethereum dApp that helps you save money.}
+	{Skale ETHBerlin}
+	{August 2019}
+\end{cvhonors}
+\ 
+\end{document}
