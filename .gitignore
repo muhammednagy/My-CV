@@ -1,2 +1,5 @@
-resume.log
-
+.DS_Store
+*.log
+*.aux
+*.out
+*.xdv
